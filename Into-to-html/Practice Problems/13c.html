@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Flex Prac v2</title>
+  <style>
+    p {
+      font-family: Arial;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .all-div {
+      margin-top: 0px;
+      border: 1px;
+      width:360px;
+      height: 260px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, .5);
+      border-radius: 10px;
+    }
+
+    .header {
+      color:gray;
+      font-size: 12px;
+      margin-left: 10px;
+      padding-top: 10px;
+    }
+    .prof-pic {
+      display: block;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+
+    .all-email {
+      width: 275px;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .row1-items {
+      display: flex;
+    }
+
+    .title-fr {
+      font-weight: bold;
+      font-size: 17px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    .time-fr {
+      color: gray;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .row2 {
+      margin-bottom: 5px;
+    }
+
+    .row2-fr {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .row3 {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .row3-fr {
+      font-size: 13px;
+      color: gray;
+    }
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="all-div">
+    <div><p class="header">ALL INBOXES</p></div>
+    <div style="
+    display: flex;
+    ">
+      <div><img class="prof-pic" src="images.jpg"></div>
+      <div class="all-email">
+        <div class="row1">
+          <div class="row1-item"><p class="title-fr">Chewy Promotions</p></div>
+          <div class="row1-item"><p class="time-fr">4:58PM</p></div>
+        </div>
+        <div class="row2">
+          <div>
+            <p class="row2-fr">Biggest sales of the year!</p>
+          </div>
+        </div>
+        <div class="row3">
+          <p class="row3-fr">Hey there! We're writing to tell you about our...</p>
+        </div>
+      </div>
+    </div>
+    <div style="
+    display: flex;
+    ">
+      <div><img class="prof-pic" src="23UP-cat-superJumbo.jpg"></div>
+      <div class="all-email">
+        <div class="row1">
+          <div class="row1-item"><p class="title-fr">Best Buy</p></div>
+          <div class="row1-item"><p class="time-fr">12:32PM</p></div>
+        </div>
+        <div class="row2">
+          <div>
+            <p class="row2-fr">Your Best Buy eReceipt</p>
+          </div>
+        </div>
+        <div class="row3">
+          <p class="row3-fr">Thank you for shopping at Best Buy, here is...</p>
+        </div>
+      </div>
+    </div>
+    <div style="
+    display: flex;
+    ">
+      <div><img class="prof-pic" src="download.jpg"></div>
+      <div class="all-email">
+        <div class="row1">
+          <div class="row1-item"><p class="title-fr">Netflix</p></div>
+          <div class="row1-item"><p class="time-fr">9:00AM</p></div>
+        </div>
+        <div class="row2">
+          <div>
+            <p class="row2-fr">Here's what's coming soon to Netflix</p>
+          </div>
+        </div>
+        <div class="row3">
+          <p class="row3-fr">Brand new movies and shows, old favorites...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>

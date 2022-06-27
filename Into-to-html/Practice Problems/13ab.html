@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Flex Practice</title>
+    <style>
+      .item-1{
+        display: flex;
+        vertical-align: middle;
+        background-color: black;
+        color: white;
+      }
+
+      .column-1 {
+        display: flex;
+        background-color:lightpink; 
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .row1 {
+        margin-top: 1px;
+        margin-bottom: 6px;
+      }
+
+      .row2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1px;
+        justify-content: space-between;
+      }
+
+      .row2-item {
+        background-color: black;
+        color:white;
+      }
+
+    </style>
+
+
+
+  </head>
+  <body>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    ">
+      <div class="column-1">
+        <p class="item-1">item 1</p></div>
+      <div style="background-color:lightblue; width: 200px"></div>
+    </div>
+
+    <div style="
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    height: 75px;
+    ">
+      <div style="background-color: lightpink; width: 100px"></div>
+      <div style="background-color: lightblue; width: 200px"> 
+        <p class="row1">row1</p>
+        <div class="row2">
+          <p class="row2-item">row2</p>
+          <p class="row2-item">row2</p>
+        </div>       
+      </div>
+    </div>
+  </body>
+
+
+</html>

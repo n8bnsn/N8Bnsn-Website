@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Practice v2</title>
+
+  <style>
+
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .overlay {
+      width: 400px;
+      height: 120px;
+      background-color: white;
+      border-radius: 10px;
+      padding-left: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .not-title {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+
+  </style>
+</head>
+<body style="
+height: 3000px;
+">
+  <div style="
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  background-color: rgb(209, 26, 26);
+  display: flex;
+  ">
+    <p style="flex: 1;">IMG</p>
+    <p style="flex: 5;"> Oliver Cat</p>
+    <button style="flex: 1;">Add Friend</button>
+    <button style="flex: 1;"> Message</button>
+  </div>
+  <div style="
+  background-color: green;
+  color:white;
+  position: fixed;
+  width: 100px;
+  top: 50px;
+  bottom: 0px;
+  right: 0px;
+  ">
+    right sidebar
+  </div>
+
+  <div style="
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  ">
+  <div class="overlay">
+    <p class="title">Modal Title</p>
+    <p class="not-title">This is a modal</p>
+    <button>Close</button>
+  </div>
+</div>
+
+
+</body>
+
+
+</html>

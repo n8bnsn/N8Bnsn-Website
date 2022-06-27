@@ -1,0 +1,32 @@
+.prof-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: left;
+}
+
+.search-bar {
+  height: 60px;
+  width: 300px;
+  border: none;
+  font-size: 18px;
+  vertical-align: middle;
+  border-color: white;
+}
+
+.tweet-button {
+  background-color:rgb(29, 155, 240);
+  color: white;
+  border-radius: 18px;
+  border: none;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer; 
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  vertical-align: middle;
+}
